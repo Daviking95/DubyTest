@@ -1,0 +1,67 @@
+/* Styles.css*/
+
+html,
+body {
+	height: 80%;
+}
+
+nav {
+	border-bottom: solid 1px red;
+}
+
+.nav-item{
+	border-right: solid 1px red;
+	margin-left: 5px;
+}
+
+.arrow-down {
+	border: solid 1px white;
+}
+
+img {
+	max-width: 100%;
+}
+/* Cover*/
+
+#cover {
+	background: #222 url('img/programming.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+
+	/* New Proprties in B4 below*/
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption {
+	width: 100%;
+}
+
+.section-content {
+	/* a rem is relative to the root of the html tag. This means it is defined by the default font size of the <html> tag in the homepage. A default html tag has a font size of 16px, therefore, 1rem = 16px. If the size is changed to , say, 22px, then 1rem = 22px. This is a new property added to Bootstrap 4*/
+
+	padding: 5rem /* 80px/16px = 5rem */ 0 ;
+}
+
+#about {
+	background: url('img/girlincar.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.about-text {
+	background: rgba(0, 0, 0, 0.46);
+	color: white;
+	padding: 1.875rem;
+	border-bottom-right-radius: 50%;
+}
+
+.logo .btns {
+	display: inline-block;
+
+}
+
+/*#carousel {
+	height: 20%;
+}*/
